@@ -19,5 +19,5 @@ jobs:
       - name: Install doctl
         uses: digitalocean/action-doctl@v2
         with:
-          token: ${{ secrets.deploy_token_do }}
+          token: ${{ secrets.SIMPLE_WE_GIT_TOKEN }}
           

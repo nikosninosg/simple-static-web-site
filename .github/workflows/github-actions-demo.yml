@@ -19,4 +19,4 @@ jobs:
       - name: Install doctl
         uses: digitalocean/action-doctl@v2
         with:
-          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+          token: ${{ secrets.dop_v1_0a8e2487297f0bcbdc10a1ca71fc6f259991530b26a4122acae28d0fac9fbb0f }}
